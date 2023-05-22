@@ -15,7 +15,7 @@ const Header = () => {
             { background: "linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,153,253,1) 50%, rgba(114,162,183,1) 69%, rgba(161,145,165,1) 80%, rgba(252,176,69,1) 100%)" }
         }>
             <Toolbar>
-                <Typography variant='h4'>Blog App</Typography>
+                <Typography variant='h4'>Blogosphere</Typography>
 
                 {isLoggedIn && <Box display="flex" marginLeft={"auto"} marginRight={"auto"}>
                     <Tabs indicatorColor="secondary" textColor='inherit' value={value} onChange={(e, val) => setValue(val)}>
